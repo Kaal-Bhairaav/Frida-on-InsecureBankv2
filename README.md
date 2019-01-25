@@ -1,4 +1,5 @@
 # Frida-on-InsecureBankv2
-'''
-aaaa
-'''
+Install Frida.
+
+run command:
+python3 Credentials_log.py
