@@ -1,5 +1,8 @@
 # Frida-on-InsecureBankv2
-Install Frida.
+For InsecureBankv2 visit <a href="https://github.com/dineshshetty/Android-InsecureBankv2">InsecureBankv2</a>
+Install Frida on your Android.
+Refer :<a href="https://www.frida.re/docs/android/">Frida Official</a>
+
 
 Run command:
-python3 Credentials_log.py
+python3 credentials_log.py
