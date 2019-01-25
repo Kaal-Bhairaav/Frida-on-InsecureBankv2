@@ -6,4 +6,4 @@ Refer :<a href="https://www.frida.re/docs/android/">Frida Official</a>
 
 
 Run command:
-python3 credentials_log.py
+python3 <file.py>
