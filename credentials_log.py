@@ -17,19 +17,21 @@ Java.perform(function () {
 	send('Function fillData called');
 	var spvar = this.getSharedPreferences("mySharedPreferences", 0);
 
+	//Get Username which will be in base64 
 	send("Username Encoded: ");
 	console.log(spvar.getString("EncryptedUsername", null));
 
+	//Decode the Username
 	send("Username Decoded: ");
 	var b64var = b64.$new();
 	var dstr = str.$new(b64var.decode('ZGluZXNo', 0));
 	console.log(dstr);
 
-
+	//Get the Password which will be Encrypted
 	console.log(" \\nPassword Encrypted :");
 	console.log(spvar.getString("superSecurePassword", null));
 
-	//Decrypt the password
+	//Decrypt the Password
 	console.log("Password Decrypted:");
 	var cryclsvar = crycls.$new();
 	console.log(cryclsvar.aesDeccryptedString(spvar.getString("superSecurePassword", null)));
