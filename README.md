@@ -5,5 +5,7 @@ Install Frida on your Android.
 Refer :<a href="https://www.frida.re/docs/android/">Frida Official</a>
 
 
-Run command:
+Usage :
+```
 python3 <file.py>
+```
